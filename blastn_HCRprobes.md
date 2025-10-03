@@ -26,7 +26,6 @@ identifier for the person making the code.
 
 ``` bash
 #!/usr/bin/env bash
-
 # Author: Ricardo A DeMoya, PhD
 ```
 
@@ -142,7 +141,7 @@ The blastn process we have been using is above in the for loop but will
 need more attention before it is outputting an XML file like we would
 like. But below I have place a simple copy of the blastn program and its
 parameters. Automating this will save hours of time and provide us a
-quick effienct way to make probes and judge them properly.
+quick efficient way to make probes and judge them properly.
 
 ``` bash
 # Using other organism names doesn't always work because of the SIGXCPU memory error
